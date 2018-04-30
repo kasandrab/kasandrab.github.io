@@ -1,7 +1,24 @@
+a{
+padding:30px;
+ margin:30px; 
+ background-color: red;
 
-a { 
-    padding:30px;
-    margin:30px;
-    background-color: red;
 }
 
+
+
+#grid-container{
+   grid-template:500px 500px 500px/500px 500px 500px;
+    display: grid;
+    width: 1000;
+    height: 1000;
+}
+
+.grid-item{
+    width: 500px;
+    height: 500px;
+}
+.column {
+    float: left;
+    width: 50%;
+}

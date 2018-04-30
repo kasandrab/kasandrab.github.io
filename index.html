@@ -5,16 +5,55 @@
   <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-  
-  <h1>Home Page</h1>
+ <style>
+a:link, a:visited {
+    background-color: yellow;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 10px 10px 5px black;
+}
+
+
+a:hover, a:active {
+    background-color: orange;
+}
+
+p {
+    color: black;
+}
+
+ .grid-container {
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+    display: grid;
+    padding: 10px;
+    
+    }
+    .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    }
+    
+ 
+  </style>
+    <h1>Home Page</h1>
   <a href="aboutme.html"> about me</a>
   <a href="resume.html">resume</a>
   <a href="funpage.html">funpage</a>
+  
+    </body>
+   <div id="grid-container">
+   <div class="grid-item"><img height="240" src="IMG_0680.jpg"></div>
+   <div class="grid-item"><img height="240" src="IMG_0707.jpg"></div>
+   <div class="grid-item"><img height="240" src="IMG_0928.jpg"></div>
+   <div class="grid-item"><img height="240" src="IMG_0981.PNG"></div>
+   <div class="grid-item"><img height="240" src="IMG_1083.PNG"></div>
+   <div class="grid-item"><img height="240" src="IMG_0681.jpg"></div>
+   </div>
+   </html>
    
-
-   <img src="http://ak9.picdn.net/shutterstock/videos/4252769/thumb/9.jpg"/>
-
- </body>
- </html>
- 
+   
